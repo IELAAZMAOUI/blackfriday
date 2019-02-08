@@ -2,7 +2,7 @@
 [![codecov](https://img.shields.io/codecov/c/github/pwittchen/money-transfer-api/master.svg?style=flat-square&label=coverage)](https://codecov.io/gh/IELAAZMAOUI/blackfriday/branch/master)
 
 Black Friday Test
-----------------
+-----------------
 
 This test is about a company that is selling products (here capsules and machines) in black friday
 - The company have a stock of products

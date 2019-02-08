@@ -1,18 +1,19 @@
 package com.indev.blackfriday;
 
 public class Product {
-    private int prix ;
+
     private String productName;
     private int quantity;
+    private int price ;
 
-    public Product(int prix, String productName, int quantity) {
-        this.prix = prix;
+    public Product(int quantity, String productName, int price) {
+        this.price = price;
         this.productName = productName;
         this.quantity = quantity;
     }
 
-    public int getPrix() {
-        return prix;
+    public int getPrice() {
+        return price;
     }
 
     public String getProductName() {
@@ -23,8 +24,8 @@ public class Product {
         return quantity;
     }
 
-    public void setPrix(int prix) {
-        this.prix = prix;
+    public void setPrice(int prix) {
+        this.price = prix;
     }
 
     public void setProductName(String productName) {
@@ -33,5 +34,13 @@ public class Product {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    public Product( ) {
+
+    }
+
+    public float getPoucentage() {
+        return 0;
     }
 }
