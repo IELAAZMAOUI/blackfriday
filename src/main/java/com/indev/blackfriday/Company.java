@@ -116,4 +116,19 @@ Product product=getProductByName(capsule);
         }
         return k;
     }
+
+    public String salesHistory() {
+        int nbr=0;
+String prodName="";
+       for(Product p:products){
+           if(p.getClass().getName().equals("com.indev.blackfriday.ProductsSells"))
+           {
+             nbr+=p.getQuantity();
+               prodName=p.getProductName();
+           }
+
+    }
+
+    return nbr+":"+prodName+"s";
+    }
 }
